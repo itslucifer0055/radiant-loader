@@ -35,7 +35,7 @@ const TextLoader = React.forwardRef<HTMLDivElement, TextLoaderProps>(
         {...props}
       >
         <style>{animationKeyframes}</style>
-        <div className={cn("font-bold tracking-wider", sizeClasses[size])}>
+        <div className={cn("font-orbitron font-medium tracking-widest", sizeClasses[size])}>
           {characters.map((char, index) => (
             <span
               key={index}
